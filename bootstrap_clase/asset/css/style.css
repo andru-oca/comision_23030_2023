@@ -1,0 +1,52 @@
+:root {
+    --border: 1px solid #777
+}
+
+/* 
+div[class^=container] {
+    background-color: tomato;
+} */
+
+
+.border {
+    /* border: var(--border); */
+    border-radius: 1rem;
+}
+
+body {
+    height: 100vh;
+}
+
+
+header {
+    height: 20%;
+
+}
+
+header>div {
+    height: 100%;
+}
+
+main {
+    height: 70%;
+
+}
+
+main>div {
+    height: 100%;
+}
+
+
+footer {
+    height: 10%;
+
+}
+
+
+
+
+
+
+.carousel-inner {
+    height: 250px;
+}
